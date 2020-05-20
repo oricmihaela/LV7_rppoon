@@ -42,5 +42,6 @@ namespace LV7_rppoon.Posjetitelj
             }
             return sum;
         }
+
     }
 }

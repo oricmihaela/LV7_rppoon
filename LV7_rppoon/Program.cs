@@ -93,9 +93,6 @@ namespace LV7_rppoon
             Cart newCart = new Cart(myCollection);
             Console.WriteLine("{0:N2}", newCart.Accept(meAsBuyVisitor));
             
-
-            Console.WriteLine("END");
-            Console.ReadKey();
         }
     }
 }
