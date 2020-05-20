@@ -43,11 +43,35 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Posjetitelj\Book.cs" />
+    <Compile Include="Posjetitelj\BuyVisitor.cs" />
+    <Compile Include="Posjetitelj\Cart.cs" />
+    <Compile Include="Posjetitelj\DVD.cs" />
+    <Compile Include="Posjetitelj\IItem.cs" />
+    <Compile Include="Posjetitelj\IVisitor.cs" />
+    <Compile Include="Posjetitelj\VHS.cs" />
+    <Compile Include="Posjetitelj\Visitor.cs" />
     <Compile Include="Program.cs" />
+    <Compile Include="Promatrac\ConsoleLogger.cs" />
+    <Compile Include="Promatrac\FileLogger.cs" />
+    <Compile Include="Promatrac\ILogger.cs" />
+    <Compile Include="Promatrac\SimpleSystemDataProvider.cs" />
+    <Compile Include="Promatrac\SystemDataProvider.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Strategija\BubbleSort.cs" />
+    <Compile Include="Strategija\CombSort.cs" />
+    <Compile Include="Strategija\ISearchStrategy.cs" />
+    <Compile Include="Strategija\NumberSequence.cs" />
+    <Compile Include="Strategija\SequentialSearch.cs" />
+    <Compile Include="Strategija\SequentialSort.cs" />
+    <Compile Include="Strategija\SortStrategy.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
   </ItemGroup>
+  <ItemGroup>
+    <Content Include="Promatrac\fileLogger1.txt" />
+  </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
